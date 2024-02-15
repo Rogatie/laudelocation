@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(243, 240, 236);
+}
+header {
+    background-color: black;
+    text-align: center;
+    height: 210px;
+    border-radius: 30px;
+} 
+header img {
+  width: 200px;
+  height: 160px;
+  display: block;
+  position: absolute; 
+  left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Nom {
+  color: rgb(248, 203, 145);
+  font-size: 2.5em;
+}
+.soustitre {
+  margin-bottom: 60px;
+  color: white;
+}
+.head {
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 50px;
+  bottom: 30px;
+}
+.titre{
+  text-align: center;
+  font-size: 2em;
+}
+.container {
+ 
+  padding: 30px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;     
+  box-shadow: 10px 10px 300px rgba(12, 2, 2, 0.1);
+  text-align: center; 
+}
+.titreoffres {
+  display: block ;
+  position: relative;
+  top: 80px;
+
+}
+.nosoffres {
+  color: white;
+  font-size: 2.5em;
+}
+.formulaire {
+  display: block;
+  position: relative;
+}
+
+.titreavis {
+  display: block ;
+  position: relative;
+  top: 80px;
+  margin-bottom: 100px;
+}
+.avisclients {
+  color: #fff;
+  font-size: 2.5em;
+}
+.imagesavis {
+  display: flex; 
+}
+.plusavis{
+  font-size: x-large;
+  display: block;
+  position: relative;
+  left: 330px;
+  background-color: rgb(94, 94, 250);
+  color: white;
+  width: 120px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  
+}
+
+
+
+.navi {
+  background-color: #ccc;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: block;
+  position: fixed;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  word-spacing: 320px;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #fff;
+}
